@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>releases</id>
       <name>Corporate Repository</name>
-      <url>http://ec2-18-218-220-72.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+      <url>http://ip-172-31-32-188.us-east-2.compute.internal:8081/nexus/content/repositories/releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>snapshots</id>
       <name>Propellors Snapshots</name>
-      <url>http://ec2-18-218-220-72.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://ip-172-31-32-188.us-east-2.compute.internal:8081/nexus/content/repositories/snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
